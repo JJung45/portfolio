@@ -1,0 +1,23 @@
+#main  ul.about>li .maincon{
+	position: relative;
+	overflow: hidden;
+}
+#main .maincon .arrow{
+	position: absolute;
+	top: 40%;
+	cursor: pointer;
+} 
+#main .maincon .arrow img{
+	width: 30px;
+}
+#main .else{
+	float: right;
+	font-size: 13px;
+}
+#main .else p{
+	display: inline;
+	padding-right: 10px;
+}
+#main .else a:nth-child(2){
+	padding-right: 5px;
+}

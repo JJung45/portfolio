@@ -1,0 +1,111 @@
+html,body,#wrap,#content{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#header{
+	width: 100%;
+	height: 50px;
+	background: #5669ad;
+}
+#header .title{
+	text-indent: 10px;
+	font-size: 20px;
+	line-height: 50px;
+	color: aliceblue;
+}
+
+#create{
+	height: 100%;
+}
+#create form{
+	height: 100%;
+}
+#create .arrow{
+	display: none;
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	cursor: pointer;
+}
+#create .arrow img{
+	width: 30px;
+}
+#create .img, .text{
+	height: 100%;
+	padding: 5px;
+}
+#create .upload{
+	width: 215px;
+	margin: 0 auto;
+	padding-top: 25%;
+	font-size: 12px;
+}
+#create .img{
+	border-bottom: 1px solid #5669ad;
+	box-sizing: border-box;
+	position: relative;
+}
+#create input[type="file"]{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+#create label{
+	padding: 7px 8px;
+	color: aliceblue;
+	line-height: normal;
+	background: #5669ad;
+	border: 1px solid #ebebeb;
+	border-bottom-color: #e2e2e2;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#create .text{
+	position: relative;
+}
+#create textarea{
+	width: 99%;
+	height: 85%;
+	border: 0;
+	outline: none;
+	resize: none;
+}
+#create input[type="submit"]{
+	border: 0;
+	width: 100%;
+	height: 30px;
+	background: #5669ad;
+	font-size: 18px;
+	color: aliceblue;
+	cursor: pointer;
+}
+@media (min-width:700px){
+	#create .img{
+		border-bottom: 0px;
+		border-right: 1px solid #5669ad;
+		box-sizing: border-box;
+	}
+	#create .uploadImg{
+		width: 100%;
+		height: auto;
+	}
+	#create .upload{
+		padding-top: 36%;
+	}
+}
+@media (max-width:700px){
+	#create .img{
+		width: 100%;
+		height: 50%;
+	}
+	#create .text{
+		height: 40%;
+	}
+}

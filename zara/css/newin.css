@@ -1,0 +1,64 @@
+@charset "utf-8";
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 30px;
+    background: #ccc;
+    text-align: center;
+    position: relative;
+}
+.menu img{
+    width: 20px;
+    height: 20px;
+    animation-duration: 3s;
+    animation: tounder 3s infinite;
+}
+@keyframes tounder{
+    0%{transform: translateY(0px);}
+    90%{transform: translateY(10px);}
+    100%{transform: translateY(10px);}
+}
+.upto{
+    width: 100%;
+    height: 200px;
+}
+.upto h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.ulMenu ul{
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.ulMenu ul>li{
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+.bar{
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+.newincontent{
+    height: 500px;
+}
+.newincontent .gall{
+    height: 450px;
+}
+.newincontent .txt{
+    text-align: center;
+    font-size: 13px;
+}
+.newincontent .txt .maintxt{
+    font-size: 14px;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#wrap{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.gallery{
+    width: 100%;
+    height: 100%;
+    background: #fcc;
+    position: relative;
+}
+.gallery ul.gall>li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ul.gall .content span.contentMaintxt{
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content span.contentetctxt{
+    display: block;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 11px;
+}
+@media only screen and (max-width:526px){
+	ul.gall .content span.contentMaintxt{
+   display: none;
+}
+.content span.contentetctxt{
+  display: none;
+}
+}
+ul.gall .firstmain{
+    width: 290px;
+    height: 130px;
+    position: absolute;
+    top: 300px;
+    right: 30px;
+}
+ul.gall .firstmain .denimtxt{
+    letter-spacing: 5px;
+}
+ul.gall .secondmain{
+     width: 290px;
+    height: 130px;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+}
+.secondmain .patternstext{
+    text-align: center;
+}
+ul.gall .thirdmain{
+    width: 290px;
+    height: 130px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.thirdmain .beachtext{
+    text-align: center;
+}
+ul.gall .fourthmain{
+    width: 290px;
+    height: 130px;
+    position: absolute;
+    top: 350px;
+    right: 120px;
+}
+.gallery .logo{
+    width: 150px;
+    height: 38px;
+    font-size: 38px;
+    font-weight: 900;
+    position: absolute;
+    top: 100px;
+    left: 84px;
+}
+@media only screen and (max-width:640px){
+	.gallery .logo{
+		top: 50px;
+		left: 50px;
+	}
+}
+.gallery .hmenu{
+    font-size: 24px;
+    font-weight: 550;
+    position: absolute;
+    top: 215px;
+    left: 84px;
+}
+@media only screen and (max-width:640px){
+	.gallery .hmenu{
+		top: 150px;
+		left: 50px;
+	}
+}
+.gallery .hmenu ul>li{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    transition: all .2s ease;
+}
+.gallery .hmenu ul>li:hover{
+    position: relative;
+    left: 3px;
+    bottom: -3px;
+    color: #ebebeb;
+}
+.gallery .hmenu ul>li.br{
+    margin: 40px 0;
+}
+.gallery .login{
+    height: 15px;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+.gallery .login a{
+    display: inline;
+}
